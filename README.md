@@ -38,11 +38,11 @@ npm run build
 
 Aplicação publicada:
 
-**https://franciellebio.github.io/ci-cd-front-end/**
+- https://franciellebio.github.io/ci-cd-front-end/
 
 ## Repositório
 
-**https://github.com/FrancielleBio/ci-cd-front-end**
+- https://github.com/FrancielleBio/ci-cd-front-end
 
 ## Pipeline
 
