@@ -1,16 +1,25 @@
 # Pipeline CI/CD Front-end
 
-Projeto React com Vite criado para praticar CI/CD com GitHub Actions.
+Projeto React com Vite desenvolvido para praticar Integração Contínua (CI) e Entrega Contínua (CD) utilizando GitHub Actions.
 
 ## Funcionalidades da pipeline
 
 - Instala dependências com `npm ci`
-- Roda análise de código com `npm run lint`
-- Roda testes automatizados com `npm run test`
-- Faz build da aplicação com `npm run build`
-- Publica automaticamente no GitHub Pages após push na branch `main`
+- Executa análise de código com `npm run lint`
+- Executa testes automatizados com `npm run test`
+- Realiza o build da aplicação com `npm run build`
+- Publica automaticamente a aplicação no GitHub Pages após push na branch `main`
 
-## Como rodar localmente
+## Tecnologias utilizadas
+
+- React
+- Vite
+- GitHub Actions
+- ESLint
+- Vitest
+- GitHub Pages
+
+## Como executar localmente
 
 ```bash
 npm install
@@ -27,21 +36,20 @@ npm run build
 
 ## Deploy
 
-Link do site publicado:
+Aplicação publicada:
 
-> Depois de subir no GitHub e ativar o GitHub Pages, cole aqui o link gerado.
+**https://franciellebio.github.io/ci-cd-front-end/**
 
-Exemplo:
+## Repositório
 
-```text
-https://seu-usuario.github.io/nome-do-repositorio/
-```
+**https://github.com/FrancielleBio/ci-cd-front-end**
 
-## Como entregar
+## Pipeline
 
-1. Suba este projeto para um repositório público no GitHub.
-2. Vá em **Settings > Pages**.
-3. Em **Build and deployment**, selecione **GitHub Actions**.
-4. Faça um push na branch `main`.
-5. Abra a aba **Actions** e confira se todos os jobs passaram.
-6. Copie o link publicado no GitHub Pages e coloque neste README.
+A pipeline é executada automaticamente em cada **push** ou **pull request** na branch `main`, realizando:
+
+1. Instalação das dependências
+2. Análise de código (ESLint)
+3. Execução dos testes
+4. Build da aplicação
+5. Deploy automático no GitHub Pages

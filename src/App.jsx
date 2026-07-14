@@ -10,11 +10,20 @@ function App() {
     <main className="page">
       <section className="hero">
         <span className="badge">GitHub Actions</span>
+
         <h1>Pipeline CI/CD Front-end</h1>
+
         <p>
-          Projeto React com Vite configurado para rodar lint, testes, build e deploy automático no GitHub Pages.
+          Projeto React com Vite configurado para rodar lint, testes, build e
+          deploy automático no GitHub Pages.
         </p>
-        <a className="button" href="https://github.com/" target="_blank" rel="noreferrer">
+
+        <a
+          className="button"
+          href="https://github.com/FrancielleBio/ci-cd-front-end"
+          target="_blank"
+          rel="noreferrer"
+        >
           Ver repositório
         </a>
       </section>
